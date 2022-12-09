@@ -65,6 +65,7 @@ function keyPressed() {
         f.reset();
         gameStart = false;
         score = 0;
+        console.log('RESET');
     }
 
     //Before Game Start, and After Game Start
@@ -75,6 +76,7 @@ function keyPressed() {
             gameStart = true;
             tGameStart.hide();
             tReset.show();
+            console.log('START');
         }
     }
 

@@ -22,6 +22,7 @@ class Fruit {
         
         if(this.y > height + this.scle) {
             this.reset();
+            console.log('OOPS!');
         }
 
     }
@@ -31,6 +32,7 @@ class Fruit {
         if(this.x >= h.x && this.x <= h.x + h.scle*h.size && this.y + this.size/2 == h.y) {
             this.reset();
             score++;
+            console.log('SCORE');
         }
 
     }
