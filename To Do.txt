@@ -1,0 +1,6 @@
+To Do:
+
+- Add New Fruit (Faster + More Score)
+- Add Powerups (Faster Movement, Bigger Board, Slower Falling)
+- Add Game Over Conditions (Lives?)
+- Add Timer?
