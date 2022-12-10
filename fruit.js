@@ -3,7 +3,7 @@ class Fruit {
     constructor() {
         this.scle = 10;
         this.size = 20;
-        this.x = (this.scle)*Math.round(random(0,50));
+        this.x = (this.scle)*Math.round(random(0,40));
         this.y = 10;
         this.ySpeed = 20;
     }
