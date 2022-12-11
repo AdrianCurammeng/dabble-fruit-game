@@ -1,11 +1,11 @@
 class Fruit {
 
-    constructor() {
-        this.scle = 10;
-        this.size = 20;
-        this.x = (this.scle)*Math.round(random(0,40));
-        this.y = 10;
-        this.ySpeed = 20;
+    constructor(scle, size, x, y, ySpeed) {
+        this.scle = scle;
+        this.size = size;
+        this.x = x;
+        this.y = y;
+        this.ySpeed = ySpeed;
     }
 
     display() {
