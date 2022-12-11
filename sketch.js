@@ -16,7 +16,7 @@ function setup() {
     frameRate(40);
     
     h = new Hero();
-    f = new Fruit(10, 20, (this.scle)*Math.round(random(0,40)), 10, 20);
+    f = new Fruit();
 
     tGameStart = new Text(255, 30, 'Press Enter to Start Game', width/2, height/2);
     tReset = new Text(bg, 15, 'Press Space to Reset Game', 390, 25);
