@@ -2,9 +2,7 @@ let score = 0;
 let scle = 20;
 let bg = 30;
 
-let h;
-let f;
-let b;
+let h, f, b;
 
 let tGameStart;
 let tReset;
